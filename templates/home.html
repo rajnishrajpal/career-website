@@ -1,0 +1,14 @@
+<html>
+<head>
+  <title>This is Apex Talent's Career Section </title>
+</head>
+<body>
+  <p> Hello There, you will learn about job openings</p>
+  <h1>Jobs</h1>
+  <div>
+  {% for job in jobs %}
+      {% include "jobs.html" %}
+  {% endfor %}
+  </div>
+</body>
+</html>
